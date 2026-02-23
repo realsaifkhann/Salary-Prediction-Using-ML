@@ -54,34 +54,96 @@ The dataset represents structured HR analytics data containing employee-related 
 
 ### **1️⃣ Linear Regression**
 
-Baseline model for performance comparison.
+Linear Regression serves as the **baseline model** for comparison.
+
+The objective is to minimize:
+
+[
+Loss = RSS = \sum (y_i - \hat{y}_i)^2
+]
+
+Where:
+
+* ( y_i ) → Actual salary
+* ( \hat{y}_i ) → Predicted salary
+* **RSS** → Residual Sum of Squares
 
 ---
 
-### **2️⃣ Ridge Regression (L2)**
+### **2️⃣ Ridge Regression (L2 Regularization)**
 
-Applies coefficient shrinkage to reduce model variance and handle multicollinearity.
+Ridge Regression adds an **L2 penalty** to reduce model complexity and handle multicollinearity.
 
 [
-Loss = RSS + \lambda \sum w^2
+Loss = RSS + λ \sum w_j^2
 ]
 
-✔ Stabilizes coefficients
-✔ Reduces overfitting
+Where:
+
+* **RSS** → Residual Sum of Squares
+* **λ (lambda)** → Regularization parameter
+* ( w_j^2 ) → Squared model coefficients
+
+**Effect of Ridge Regression:**
+
+✔ Shrinks coefficients toward zero
+✔ Reduces variance
+✔ Improves stability
+✔ Retains all features
 
 ---
 
-### **3️⃣ Lasso Regression (L1)**
+### **3️⃣ Lasso Regression (L1 Regularization)**
 
-Performs coefficient shrinkage **and feature selection**.
+Lasso Regression applies an **L1 penalty**, enabling coefficient shrinkage and feature selection.
 
 [
-Loss = RSS + \lambda \sum |w|
+Loss = RSS + λ \sum |w_j|
 ]
 
-✔ Eliminates weak predictors
+Where:
+
+* **RSS** → Residual Sum of Squares
+* **λ (lambda)** → Regularization parameter
+* ( |w_j| ) → Absolute coefficient values
+
+**Effect of Lasso Regression:**
+
+✔ Shrinks coefficients
+✔ Forces some coefficients = 0
+✔ Performs automatic feature selection
 ✔ Improves interpretability
-✔ Simplifies model
+
+---
+
+## 🎯 Role of Regularization Parameter (λ)
+
+The parameter **λ (lambda)** controls the strength of regularization:
+
+* **λ = 0** → Equivalent to Linear Regression
+* **Small λ** → Mild shrinkage
+* **Large λ** → Strong shrinkage
+
+Trade-off:
+
+✔ Higher λ → Less overfitting
+❌ Too large λ → Underfitting
+
+---
+
+✅ Proper symbols
+✅ Academic formatting
+✅ Portfolio-grade
+
+---
+
+If you want next, I can add:
+
+📊 Coefficient shrinkage intuition
+📉 Ridge vs Lasso geometry explanation
+✨ Math + visual combo section
+
+Just tell me 😄🔥
 
 ---
 
