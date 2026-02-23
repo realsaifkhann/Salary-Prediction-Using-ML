@@ -223,20 +223,6 @@ Models were evaluated using:
 
 ---
 
-## 🎓 Learning Outcomes
-
-Through this project, I learned:
-
-✅ Data preprocessing techniques
-✅ Exploratory Data Analysis (EDA)
-✅ Regression modeling
-✅ Ridge vs Lasso regularization
-✅ Hyperparameter tuning
-✅ Model evaluation metrics
-✅ ML model deployment
-
----
-
 ## ⭐ Key Takeaway
 
 > Regularization techniques like Ridge and Lasso improve model generalization, stability, and interpretability by controlling coefficient magnitudes and complexity.
