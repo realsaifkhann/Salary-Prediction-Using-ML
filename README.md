@@ -226,5 +226,3 @@ Models were evaluated using:
 ## ⭐ Key Takeaway
 
 > Regularization techniques like Ridge and Lasso improve model generalization, stability, and interpretability by controlling coefficient magnitudes and complexity.
-
-Just tell me 😄🔥
