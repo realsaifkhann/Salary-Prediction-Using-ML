@@ -1,8 +1,7 @@
----
-
 # 💰 Employee Salary Prediction using Lasso Regression
 
 ## 📌 Project Overview
+
 This project focuses on predicting **employee monthly salary** using Machine Learning techniques.
 The goal is to build a robust regression model while addressing common challenges such as:
 
@@ -179,3 +178,5 @@ Through this project, I learned:
 ## ⭐ Key Takeaway
 
 > Regularization techniques like Ridge and Lasso improve model generalization, stability, and interpretability by controlling coefficient magnitudes and complexity.
+
+Just tell me 😄🔥
