@@ -151,22 +151,6 @@ Models were evaluated using:
 
 ---
 
-## 🚀 Deployment
-
-The final Lasso model was deployed using **Streamlit**, enabling:
-
-✔ Real-time salary prediction
-✔ Interactive UI
-✔ Model usability demonstration
-
-Run locally:
-
-```bash
-streamlit run app.py
-```
-
----
-
 ## 🧰 Technologies Used
 
 * Python
