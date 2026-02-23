@@ -3,7 +3,6 @@
 # 💰 Employee Salary Prediction using Lasso Regression
 
 ## 📌 Project Overview
-
 This project focuses on predicting **employee monthly salary** using Machine Learning techniques.
 The goal is to build a robust regression model while addressing common challenges such as:
 
